@@ -11,7 +11,7 @@
 
 const id = Symbol('123')
 const anoId = Symbol('123')
-console.log(id === anoId)
+console.log(id === anoId);
 
 const bigNumber = 345672576257625765n
 
@@ -31,6 +31,8 @@ const bigNumber = 345672576257625765n
  console.log(typeof id);
  console.log(typeof bigNumber);
  console.log(typeof myFunction);
+ console.log(typeof bigNumber);
+ console.log(typeof heros);
  
 
  // javasceipt is dynamically type language0
