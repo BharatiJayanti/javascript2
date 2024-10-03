@@ -1,4 +1,5 @@
-
+var c = 300
+// let a = 300
 
 if(true){
     let a = 10
@@ -7,6 +8,6 @@ if(true){
 }
 
 
-console.log(a);
-console.log(b);
+// console.log(a);
+// console.log(b);
 console.log(c);
