@@ -1,5 +1,6 @@
 // Immediately Invoked Function Expressions (IIFE)
-
-function chai(){
-    console.log(`DB CONNECTED`)
-}
+// we use iife to remove the pollution of global scope or its variable
+(function chai(){
+    console.log(`DB CONNECTED`);
+})()
+// chai()
