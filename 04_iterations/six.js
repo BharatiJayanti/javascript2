@@ -24,23 +24,30 @@ const myNums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 // console.log(newNums);
 
-const userBooks = [
+const books = [
     {title: 'Book one', genre: 'Non-Fiction', publish:1981,
     edition:1989},
-    {title: 'Book one', genre: 'Non-Fiction', publish:1981,
+    {title: 'Book two', genre: 'Fiction', publish:1999,
+    edition:2000},
+    {title: 'Book three', genre: 'Science', publish:2001,
+    edition:2007},
+    {title: 'Book four', genre: 'Non-Fiction', publish:2010,
+    edition:2016},
+    {title: 'Book five', genre: 'History', publish:2007,
+    edition:2010},
+    {title: 'Book six', genre: 'Science', publish:1990,
+    edition:1997},
+    {title: 'Book seven', genre: 'Non-Fiction', publish:2003,
+    edition:2008},
+    {title: 'Book eight', genre: 'History', publish:1987,
+    edition:1996},
+    {title: 'Book nine', genre: 'Science', publish:1981,
     edition:1989},
-    {title: 'Book one', genre: 'Non-Fiction', publish:1981,
-    edition:1989},
-    {title: 'Book one', genre: 'Non-Fiction', publish:1981,
-    edition:1989},
-    {title: 'Book one', genre: 'Non-Fiction', publish:1981,
-    edition:1989},
-    {title: 'Book one', genre: 'Non-Fiction', publish:1981,
-    edition:1989},
-    {title: 'Book one', genre: 'Non-Fiction', publish:1981,
-    edition:1989},
+    
+ 
 
 
 
-
-]
+];
+const userBooks = books.filter( (bk) => bk.genre === 'History')
+console.log(userBooks);
